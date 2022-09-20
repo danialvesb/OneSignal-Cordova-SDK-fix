@@ -31,6 +31,7 @@
 
   <platform name="android">
     <framework src="com.onesignal:OneSignal:4.8.2" />
+    <framework src="androidx.work:work-runtime-ktx:2.7.0" />
     <framework src="build-extras-onesignal.gradle" custom="true" type="gradleReference" />
 
     <config-file target="res/xml/config.xml" parent="/*">
